@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        DatabaseConnection connect = new DatabaseConnection();
+        DatabaseConnection connection = new DatabaseConnection();
     }
 }
