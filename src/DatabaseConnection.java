@@ -34,16 +34,16 @@ public class DatabaseConnection {
 
         frame = new JFrame();
         panel = new JPanel();
-        label = new JLabel("Baza danych - Hotel", SwingConstants.CENTER);
+        label = new JLabel("Projekt BD1 Mateusz Nizio", SwingConstants.CENTER);
         label.setFont(new Font("Arial", Font.PLAIN, 40));
-        autor = new JLabel("Wykonal Kamil Sudol", SwingConstants.CENTER);
-        start = new JButton("Start");
-        panel.setBorder(BorderFactory.createEmptyBorder(100, 100, 100, 100));
+        autor = new JLabel("Symulacja bazy danych Hotelu", SwingConstants.CENTER);
+        start = new JButton("Zaloguj lub zarejestruj");
+        panel.setBorder(BorderFactory.createEmptyBorder(75, 100, 100, 150));
         panel.setLayout(new GridLayout(0, 1));
 
         panel.add(label);
         panel.add(autor);
-        
+        panel.setBackground(Color.gray);
         panel.add(start);
         frame.add(panel, BorderLayout.CENTER);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
