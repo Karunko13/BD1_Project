@@ -43,5 +43,14 @@ public class DatabaseConnection {
 
         panel.add(label);
         panel.add(autor);
+        
+        panel.add(start);
+        frame.add(panel, BorderLayout.CENTER);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setTitle("BD PROJEKT - Start");
+        frame.pack();
+        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        frame.setVisible(true);
+
     }
 }
