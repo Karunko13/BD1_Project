@@ -1,0 +1,2 @@
+Main-class: Main
+Class-Path: postgresql-42.2.12.jar
